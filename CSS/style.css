@@ -9,7 +9,10 @@ body{
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  position: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .select-box{
   width: 300px;
