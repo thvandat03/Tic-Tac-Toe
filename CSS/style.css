@@ -192,4 +192,5 @@ body{
 }
 .result-box{
   display: none;
+  opacity: 0;
 }
