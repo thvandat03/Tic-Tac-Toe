@@ -180,10 +180,14 @@ body{
 .select-box{
   display: none;
 }
-.game-main{
-  display: none;
+.
+.select-box{
+  display: block;
 }
-.game-main.hide{
+.game-main{
+  opacity: 0;
+}
+.select-box.hide{
   opacity: 0;
   transition: .3s ease;
 }
@@ -192,5 +196,5 @@ body{
   transition: .3s ease;
 }
 .result-box{
-  display: block;
+  display: none;
 }
