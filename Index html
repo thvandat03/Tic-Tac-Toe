@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  
+  <!--Seclect box-->
+  
+  <div class="select-box">
+    <div class="select-title">Tic Tac Toe     </div>
+  <div class="select-content">Choose which you want...
+    <div class="select-btn">
+<button class="playerX">Player (X)</button>
+<button class="playerO">Player (O)</button>
+    </div>
+  </div>
+  </div>
+  
+  <!--Game main-->
+  
+  <div class="game-main">
+   <div class="main">
+     
+    <div class="player-turn">
+      <span class="Xturn">X Turn</span>
+      <span class="Oturn">O Turn</span>
+   </div>
+    </div>
+    <div class="game-board">
+      <section>
+        <span class="">X</span>
+        <span class="">O</span>
+        <span class="">O</span>
+      </section>
+      <section>
+        <span class="">X</span>
+        <span class="">O</span>
+        <span class="">O</span>
+      </section>
+      <section>
+        <span class="">X</span>
+        <span class="">O</span>
+        <span class="">O</span>
+      </section>
+    </div>
+  </div>
+  
+  <!--Result-->
+  
+  <div class="result-box">
+    <div class="result-title">
+      Player X WON !
+    </div>
+    <button class="replay-btn" >
+      Replay
+    </button>
+  </div>
+  
+  
+  <script src="js/main.js"></script>
+</body>
+</htmvl>
